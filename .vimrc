@@ -11,6 +11,6 @@ set encoding=utf-8
 set background=dark
 set laststatus=2
 map <F2> :NERDTreeToggle<CR>
-colorscheme xoria256
+colorscheme mustang
 nnoremap <silent> <F3> :set paste!<CR>
 set pastetoggle=<F3>
