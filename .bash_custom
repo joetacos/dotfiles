@@ -1,21 +1,27 @@
 # Composer
 export PATH="$HOME/.composer/vendor/bin:$PATH"
 
+# Program Aliases
+alias v="vim"
+alias sv="sudo vim"
+
 # Tmux
 alias tmux='tmux -2'
 
 # Powerline
-. /home/ubuntu/.vim/bundle/powerline/powerline/bindings/bash/powerline.sh
+if [ -f ~/.vim/bundle/powerline/powerline/bindings/bash/powerline.sh ]; then
+    . ~/.vim/bundle/powerline/powerline/bindings/bash/powerline.sh
+fi
 
 # History
-export HISTFILESIZE=20000
-export HISTSIZE=10000
-shopt -s histappend
+# export HISTFILESIZE=20000
+# export HISTSIZE=10000
+# shopt -s histappend
 # Combine multiline commands into one in history
-shopt -s cmdhist
+# shopt -s cmdhist
 # Ignore duplicates, ls without options and builtin commands
-HISTCONTROL=ignoredups
-export HISTIGNORE="&:ls:[bf]g:exit"
+# HISTCONTROL=ignoredups
+# export HISTIGNORE="&:ls:[bf]g:exit"
 
 # Up
 alias ..="cd .."
@@ -23,10 +29,22 @@ alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
 
+# Location Aliases
+alias www="cd /var/www"
+alias dl="cd ~/downloads"
+alias crap="cd ~/crap"
+
+# apt-get
+alias agi='sudo apt-get install'
+alias agu='sudo apt-get update && sudo apt-get upgrade'
+alias aga='sudo apt-get autoremove'
+alias agr='sudo apt-get remove'
+alias ags='sudo apt-get search'
+
 # Confirm
-alias rm='rm -vi'
-alias cp='cp -vi'
-alias mv='mv -vi'
+# alias rm='rm -vi'
+# alias cp='cp -vi'
+# alias mv='mv -vi'
 
 # Extract
 extract () {
