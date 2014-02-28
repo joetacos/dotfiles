@@ -13,6 +13,11 @@ if [ -f ~/.vim/bundle/powerline/powerline/bindings/bash/powerline.sh ]; then
     . ~/.vim/bundle/powerline/powerline/bindings/bash/powerline.sh
 fi
 
+# Changed Frequently
+if [ -f ~/.bash_changed_frequently ]; then
+    . ~/.bash_changed_frequently
+fi
+
 # History
 # export HISTFILESIZE=20000
 # export HISTSIZE=10000
