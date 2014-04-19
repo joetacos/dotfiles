@@ -1,1 +1,80 @@
- 
+
+# Composer
+export PATH="$HOME/.composer/vendor/bin:$PATH"
+
+# Program Aliases
+alias v="vim"
+alias sv="sudo vim"
+
+alias restartap="sudo service apache2 restart"
+
+# Tmux
+alias tmux='tmux -2'
+alias ta='tmux attach -t'
+alias ts='tmux new-session -s'
+alias tl='tmux list-sessions'
+
+# Variables
+if [ -f ~/.custom_aliases_var ]; then
+    . ~/.custom_aliases_var
+fi
+
+# History
+# export HISTFILESIZE=20000
+# export HISTSIZE=10000
+# shopt -s histappend
+# Combine multiline commands into one in history
+# shopt -s cmdhist
+# Ignore duplicates, ls without options and builtin commands
+# HISTCONTROL=ignoredups
+# export HISTIGNORE="&:ls:[bf]g:exit"
+
+# some more ls aliases
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
+
+# Up
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+
+# Location Aliases
+alias www="cd /var/www"
+alias dl="cd ~/downloads"
+alias crap="cd ~/crap"
+
+# apt-get
+alias agi='sudo apt-get install'
+alias agu='sudo apt-get update && sudo apt-get upgrade'
+alias aga='sudo apt-get autoremove'
+alias agr='sudo apt-get remove'
+alias ags='sudo apt-get search'
+
+# Confirm
+# alias rm='rm -vi'
+# alias cp='cp -vi'
+# alias mv='mv -vi'
+
+# Extract
+# extract () {
+#    if [ -f $1 ] ; then
+#        case $1 in
+#            *.tar.bz2)   tar xvjf $1    ;;
+#            *.tar.gz)    tar xvzf $1    ;;
+#            *.bz2)       bunzip2 $1     ;;
+#            *.rar)       unrar x $1       ;;
+#            *.gz)        gunzip $1      ;;
+#            *.tar)       tar xvf $1     ;;
+#            *.tbz2)      tar xvjf $1    ;;
+#            *.tgz)       tar xvzf $1    ;;
+#            *.zip)       unzip $1       ;;
+#            *.Z)         uncompress $1  ;;
+#            *.7z)        7z x $1        ;;
+#            *)           echo "don't know how to extract '$1'..." ;;
+#        esac
+#    else
+#        echo "'$1' is not a valid file!"
+#    fi
+#  }
