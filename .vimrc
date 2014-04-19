@@ -14,3 +14,5 @@ map <F2> :NERDTreeToggle<CR>
 colorscheme lucius
 nnoremap <silent> <F3> :set paste!<CR>
 set pastetoggle=<F3>
+map <F4> :TComment<CR>
+let g:ctrlp_show_hidden = 1
