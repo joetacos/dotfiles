@@ -40,6 +40,9 @@ alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
 
+# Move all file up
+alias allfilesup="mv * .[^.]* .."
+
 # Location Aliases
 alias www="cd /var/www"
 alias dl="cd ~/downloads"
