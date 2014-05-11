@@ -8,10 +8,5 @@ if [ -f ~/.custom_aliases ]; then
       . ~/.custom_aliases
 fi
 
-# Syntax Highlighting
-# if [ -f ~/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh ]; then
-#       . ~/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-# fi
-
 # Auto Correct Commands
 setopt CORRECT
