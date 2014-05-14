@@ -6,7 +6,9 @@ export PATH="$HOME/.composer/vendor/bin:$PATH"
 alias v="vim"
 alias sv="sudo vim"
 
+# Apache
 alias restartap="sudo service apache2 restart"
+alias reloadap="sudo service apache2 reload"
 
 # Tmux
 alias tmux='tmux -2'
