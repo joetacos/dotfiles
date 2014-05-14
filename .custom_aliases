@@ -45,7 +45,7 @@ alias startdropbox="~/.dropbox-dist/dropboxd"
 
 # .deb
 alias installdeb="sudo dpkg -i"
-alias unistalldeb="sudo dpkg -r"
+alias uninstalldeb="sudo dpkg -r"
 
 # Move all file up
 alias allfilesup="mv * .[^.]* .."
