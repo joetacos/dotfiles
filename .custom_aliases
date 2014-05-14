@@ -40,6 +40,13 @@ alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
 
+# Dropbox
+alias startdropbox="~/.dropbox-dist/dropboxd"
+
+# .deb
+alias installdeb="sudo dpkg -i"
+alias unistalldeb="sudo dpkg -r"
+
 # Move all file up
 alias allfilesup="mv * .[^.]* .."
 
