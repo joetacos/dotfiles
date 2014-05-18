@@ -9,6 +9,11 @@ alias sv="sudo vim"
 # Apache
 alias restartap="sudo service apache2 restart"
 alias reloadap="sudo service apache2 reload"
+# sudo service mysql restart
+# sudo service apache2 restart
+# sudo service apache2 reload
+# sudo a2ensite lostinsmoke
+# sudo a2dissite lostinsmoke
 
 # Tmux
 alias tmux='tmux -2'
