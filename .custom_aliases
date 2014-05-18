@@ -52,6 +52,9 @@ alias uninstalldeb="sudo dpkg -r"
 # Move all file up
 alias allfilesup="mv * .[^.]* .."
 
+# Remove all files in a directory
+alias rmallfiles="rm -r * .[^.]*"
+
 # Location Aliases
 alias www="cd /var/www"
 alias dl="cd ~/downloads"
