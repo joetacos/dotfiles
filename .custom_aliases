@@ -1,4 +1,7 @@
 
+# Powerline
+export PATH="$HOME/.vim/bundle/powerline/scripts:$PATH"
+
 # Composer
 export PATH="$HOME/.composer/vendor/bin:$PATH"
 
