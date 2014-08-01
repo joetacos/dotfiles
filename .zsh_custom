@@ -1,11 +1,12 @@
-# Powerline for Zsh
-if [ -f ~/.vim/bundle/powerline/powerline/bindings/zsh/powerline.zsh ]; then
-      . ~/.vim/bundle/powerline/powerline/bindings/zsh/powerline.zsh
-fi
 
 # Custom Aliases
 if [ -f ~/.custom_aliases ]; then
       . ~/.custom_aliases
+fi
+
+# Powerline for Zsh
+if [ -f ~/.vim/bundle/powerline/powerline/bindings/zsh/powerline.zsh ]; then
+      . ~/.vim/bundle/powerline/powerline/bindings/zsh/powerline.zsh
 fi
 
 # Auto Correct Commands
