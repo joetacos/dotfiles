@@ -1,3 +1,4 @@
+export EDITOR="vim"
 
 # Powerline
 export PATH="$HOME/.vim/bundle/powerline/scripts:$PATH"
