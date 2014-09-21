@@ -11,3 +11,8 @@ fi
 
 # Auto Correct Commands
 setopt CORRECT
+
+# tmuxinator
+if [ -f ~/.bin/tmuxinator.zsh ]; then
+      . ~/.bin/tmuxinator.zsh
+fi
