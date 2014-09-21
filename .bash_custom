@@ -7,3 +7,8 @@ fi
 if [ -f ~/.custom_aliases ]; then
       . ~/.custom_aliases
 fi
+
+# tmuxinator
+if [ -f ~/.bin/tmuxinator.bash ]; then
+      . ~/.bin/tmuxinator.bash
+fi
