@@ -4,3 +4,11 @@ wget https://github.com/joetacos/dotfiles/raw/master/.custom_bash &&
 wget https://github.com/joetacos/dotfiles/raw/master/.custom_zsh &&
 wget https://github.com/joetacos/dotfiles/raw/master/.tmux.conf &&
 wget https://github.com/joetacos/dotfiles/raw/master/.vimrc
+
+
+wget https://raw.githubusercontent.com/joetacos/dotfiles/master/.custom_zsh &&
+wget https://raw.githubusercontent.com/joetacos/dotfiles/master/.custom_bash &&
+wget https://raw.githubusercontent.com/joetacos/dotfiles/master/.custom_aliases &&
+wget https://raw.githubusercontent.com/joetacos/dotfiles/master/.custom_aliases_var &&
+wget https://raw.githubusercontent.com/joetacos/dotfiles/master/.tmux.conf &&
+wget https://raw.githubusercontent.com/joetacos/dotfiles/master/.vimrc
