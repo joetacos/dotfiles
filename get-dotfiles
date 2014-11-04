@@ -1,0 +1,6 @@
+wget https://github.com/joetacos/dotfiles/raw/master/.custom_aliases &&
+wget https://github.com/joetacos/dotfiles/raw/master/.custom_aliases_var &&
+wget https://github.com/joetacos/dotfiles/raw/master/.custom_bash &&
+wget https://github.com/joetacos/dotfiles/raw/master/.custom_zsh &&
+wget https://github.com/joetacos/dotfiles/raw/master/.tmux.conf &&
+wget https://github.com/joetacos/dotfiles/raw/master/.vimrc
