@@ -8,7 +8,6 @@ set number
 set autoindent
 set fileencoding=utf-8
 set encoding=utf-8
-set background=dark
 set laststatus=2
 map <F2> :NERDTreeToggle<CR>
 nnoremap <silent> <F3> :set paste!<CR>
@@ -23,3 +22,6 @@ python del powerline_setup
 " colorscheme hybrid
 " colorscheme grb256
 colorscheme lucius
+
+set background=dark
+" set background=light
