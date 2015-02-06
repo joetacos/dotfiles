@@ -21,7 +21,7 @@ python del powerline_setup
 
 " colorscheme hybrid
 " colorscheme grb256
-colorscheme lucius
+colorscheme gruvbox
 
 set background=dark
 " set background=light
