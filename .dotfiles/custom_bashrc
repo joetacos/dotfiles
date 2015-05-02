@@ -9,8 +9,8 @@ if [ -f ~/.local/lib/python2.7/site-packages/powerline/bindings/bash/powerline.s
 fi
 
 # Custom Aliases
-if [ -f ~/.custom_aliases ]; then
-      . ~/.custom_aliases
+if [ -f ~/.dotfiles/custom_aliases ]; then
+      . ~/.dotfiles/custom_aliases
 fi
 
 # tmuxinator
