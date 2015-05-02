@@ -20,8 +20,9 @@ python from powerline.vim import setup as powerline_setup
 python powerline_setup()
 python del powerline_setup
 
-" colorscheme hybrid
-" colorscheme grb256
+" colorscheme badwolf
+" colorscheme jellybeans
+" colorscheme solarized
 colorscheme gruvbox
 
 set background=dark
