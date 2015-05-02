@@ -20,10 +20,12 @@ python from powerline.vim import setup as powerline_setup
 python powerline_setup()
 python del powerline_setup
 
+" let g:solarized_termcolors=256
+
+set background=dark
+" set background=light
+
 " colorscheme badwolf
 " colorscheme jellybeans
 " colorscheme solarized
 colorscheme gruvbox
-
-set background=dark
-" set background=light
