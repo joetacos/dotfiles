@@ -7,6 +7,10 @@ export PATH="$HOME/.composer/vendor/bin:$PATH"
 alias v="vim"
 alias sv="sudo vim"
 
+# GitHub
+export PATH="$HOME/custom-programs/hub:$PATH"
+alias git="hub"
+
 # Apache
 alias restartap="sudo service apache2 restart"
 alias reloadap="sudo service apache2 reload"
