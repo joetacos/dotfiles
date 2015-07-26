@@ -1,4 +1,3 @@
-
 execute pathogen#infect()
 set t_Co=256
 syntax on
@@ -20,16 +19,28 @@ python from powerline.vim import setup as powerline_setup
 python powerline_setup()
 python del powerline_setup
 
+
+let g:ycm_key_list_select_completion=[]
+let g:ycm_key_list_previous_completion=[]
+
+
+
+
+
+set background=dark
+" set background=light
+
+
 " let g:solarized_termcolors=256
 
 " let g:molokai_original = 1
 " let g:rehash256 = 1
 
-set background=dark
-" set background=light
-
+colorscheme gruvbox
 " colorscheme badwolf
 " colorscheme jellybeans
 " colorscheme solarized
-colorscheme gruvbox
-" colorscheme monokai
+" colorscheme molokai
+" colorscheme distinguished
+" colorscheme kolor
+" colorscheme mirodark
