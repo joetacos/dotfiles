@@ -25,6 +25,7 @@ map <F2> :NERDTreeToggle<CR>
 nnoremap <silent> <F3> :set paste!<CR>
 set pastetoggle=<F3>
 
+
 """ TCOMMENT """
 map <F4> :TComment<CR>
 
@@ -51,7 +52,6 @@ set background=dark
 
 """ COLOR THEMES SETTINGS """
 " let g:solarized_termcolors=256
-
 " let g:molokai_original = 1
 " let g:rehash256 = 1
 
