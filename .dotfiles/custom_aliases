@@ -1,22 +1,22 @@
-### Defauts ###
+### DEFAULTS ###
 export EDITOR="vim"
 
 
-### Composer ###
+### COMPOSER ###
 export PATH="$HOME/.composer/vendor/bin:$PATH"
 
 
-### Program Aliases ###
+### PROGRAM ALIASES ###
 alias v="vim"
 alias sv="sudo vim"
 
 
-### GitHub ###
+### GITHUB ###
 export PATH="$HOME/custom-programs/hub:$PATH"
 alias git="hub"
 
 
-### Apache ###
+### APACHE ###
 alias restartap="sudo service apache2 restart"
 alias reloadap="sudo service apache2 reload"
 # sudo service mysql restart
@@ -26,7 +26,7 @@ alias reloadap="sudo service apache2 reload"
 # sudo a2dissite lostinsmoke
 
 
-### Variables ###
+### VARIABLES ###
 if [ -f ~/.dotfiles/custom_aliases_var ]; then
     . ~/.dotfiles/custom_aliases_var
 fi
@@ -45,7 +45,7 @@ alias ....="cd ../../.."
 alias .....="cd ../../../.."
 
 
-### Dropbox ###
+### DROPBOX ###
 alias startdropbox="~/.dropbox-dist/dropboxd"
 
 
@@ -62,7 +62,7 @@ alias allfilesup="mv * .[^.]* .."
 alias rmallfiles="rm -r * .[^.]*"
 
 
-### Location Aliases ###
+### LOCATION ALIASES ###
 alias www="cd /var/www"
 alias dl="cd ~/downloads"
 alias crap="cd ~/crap"
