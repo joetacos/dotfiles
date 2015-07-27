@@ -1,16 +1,20 @@
 ### Defauts ###
 export EDITOR="vim"
 
+
 ### Composer ###
 export PATH="$HOME/.composer/vendor/bin:$PATH"
+
 
 ### Program Aliases ###
 alias v="vim"
 alias sv="sudo vim"
 
+
 ### GitHub ###
 export PATH="$HOME/custom-programs/hub:$PATH"
 alias git="hub"
+
 
 ### Apache ###
 alias restartap="sudo service apache2 restart"
