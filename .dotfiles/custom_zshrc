@@ -1,23 +1,23 @@
 
 
-### POWERLINE DAEMON
+#### POWERLINE DAEMON
 export PATH="$HOME/.local/bin:$PATH"
 powerline-daemon -q
 
 
-### POWERLINE FOR ZSH
+#### POWERLINE FOR ZSH
 if [ -f ~/.local/lib/python2.7/site-packages/powerline/bindings/zsh/powerline.zsh ]; then
       . ~/.local/lib/python2.7/site-packages/powerline/bindings/zsh/powerline.zsh
 fi
 
 
-### CUSTOM ALIASES
+#### CUSTOM ALIASES
 if [ -f ~/.dotfiles/custom_aliases ]; then
       . ~/.dotfiles/custom_aliases
 fi
 
 
-### TMUXINATOR
+#### TMUXINATOR
 if [ -f ~/.bin/tmuxinator.zsh ]; then
       . ~/.bin/tmuxinator.zsh
 fi
