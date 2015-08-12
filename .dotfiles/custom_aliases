@@ -1,31 +1,31 @@
 
 
-### DEFAULTS ###
+### DEFAULTS
 export EDITOR="vim"
 
 
-### TMUX ###
+### TMUX
 alias tmux='tmux -2'
 alias ta='tmux attach -t'
 alias ts='tmux new-session -s'
 alias tl='tmux list-sessions'
 
 
-### COMPOSER ###
+#### COMPOSER
 export PATH="$HOME/.composer/vendor/bin:$PATH"
 
 
-### PROGRAM ALIASES ###
+#### PROGRAM ALIASES
 alias v="vim"
 alias sv="sudo vim"
 
 
-### GITHUB ###
+#### GITHUB
 export PATH="$HOME/custom-programs/hub:$PATH"
 alias git="hub"
 
 
-### APACHE ###
+#### APACHE
 alias restartap="sudo service apache2 restart"
 alias reloadap="sudo service apache2 reload"
 # sudo service mysql restart
@@ -35,30 +35,30 @@ alias reloadap="sudo service apache2 reload"
 # sudo a2dissite lostinsmoke
 
 
-### VARIABLES ###
+#### VARIABLES
 if [ -f ~/.dotfiles/custom_aliases_var ]; then
     . ~/.dotfiles/custom_aliases_var
 fi
 
 
-### DROPBOX ###
+#### DROPBOX
 alias startdropbox="~/.dropbox-dist/dropboxd"
 
 
-### .deb ###
+#### .deb
 alias installdeb="sudo dpkg -i"
 alias uninstalldeb="sudo dpkg -r"
 
 
-### Move all files up a directory ###
+#### Move all files up a directory
 alias allfilesup="mv * .[^.]* .."
 
 
-### Remove all files in a directory ###
+#### Remove all files in a directory
 alias rmallfiles="rm -r * .[^.]*"
 
 
-### LOCATION ALIASES ###
+#### LOCATION ALIASES
 alias www="cd /var/www"
 alias dl="cd ~/downloads"
 alias crap="cd ~/crap"
