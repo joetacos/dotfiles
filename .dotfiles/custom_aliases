@@ -1,10 +1,10 @@
 
 
-### DEFAULTS
+#### DEFAULTS
 export EDITOR="vim"
 
 
-### TMUX
+#### TMUX
 alias tmux='tmux -2'
 alias ta='tmux attach -t'
 alias ts='tmux new-session -s'
