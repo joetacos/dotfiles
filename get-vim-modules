@@ -1,9 +1,9 @@
-""" PATHOGEN """
+"""" PATHOGEN
 https://github.com/tpope/vim-pathogen
 
 
 
-""" PLUGINS """
+"""" PLUGINS
 git clone git://github.com/tpope/vim-sensible.git &&
 git clone git://github.com/kien/ctrlp.vim.git &&
 git clone git://github.com/scrooloose/nerdtree.git &&
@@ -17,7 +17,7 @@ https://github.com/honza/vim-snippets
 
 
 
-""" COLOR THEMES """
+"""" COLOR THEMES
 git clone git://github.com/flazz/vim-colorschemes.git
 
 https://github.com/morhetz/gruvbox
