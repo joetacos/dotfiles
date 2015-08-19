@@ -67,4 +67,5 @@ colorscheme gruvbox
 " colorscheme mirodark
 " colorscheme bubblegum-256-light
 " colorscheme bubblegum-256-dark
+" colorscheme Apprentice
 
