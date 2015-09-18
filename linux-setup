@@ -1,0 +1,83 @@
+
+
+sudo apt-get update &&
+sudo apt-get upgrade
+
+sudo apt-get autoremove
+
+sudo add-apt-repository main &&
+sudo add-apt-repository universe &&
+sudo add-apt-repository multiverse &&
+sudo add-apt-repository restricted
+
+sudo tasksel install lamp-server
+
+sudo apt-get install phpmyadmin g++ gcc curl php5-curl php-pear python python-pip ruby ruby-dev make unzip git php5-dev imagemagick zsh screen libtool apache2-dev python-dev php-pear htop weechat vim wget build-essential cmake nodejs npm nodejs-legacy tmux
+
+
+sudo gem install tmuxinator bundler
+
+
+#### CLOUDFLARE
+https://www.cloudflare.com/resources-downloads
+
+
+#### DRUPAL
+Composer
+https://github.com/composer/composer
+
+Drush
+https://github.com/drush-ops/drush
+
+Upload Progess
+https://www.drupal.org/node/793264
+
+sudo apt-get install php5-dev
+sudo pecl install uploadprogress
+
+cd /etc/php5/apache2/conf.d
+sudo touch uploadprogress.ini
+sudo vim uploadprogress.ini
+add the line "extension=uploadprogress.so" to uploadprogress.ini
+
+
+sudo vim /etc/php5/apache2/php.ini
+Add the line "extension=uploadprogress.so" to php.ini
+
+
+#### APACHE
+sudo a2enmod rewrite
+sudo service apache2 restart
+
+<Directory /var/www>
+AllowOverride All
+</Directory>
+
+
+#### VIM
+Pathagen
+https://github.com/tpope/vim-pathogen
+
+You Complete Me
+https://github.com/Valloric/YouCompleteMe
+
+
+#### ZSH
+https://github.com/robbyrussell/oh-my-zsh
+plugins: git common-aliases tmux extract colored-man command-not-found
+
+if [ -f ~/.dotfiles/custom_zsh ]; then
+    . ~/.dotfiles/custom_zsh
+fi
+
+
+#### BASH
+if [ -f ~/.dotfiles/custom_bash ]; then
+    . ~/.dotfiles/custom_bash
+fi
+
+
+#### POWER LINE
+http://powerline.readthedocs.org/en/master/installation.html
+
+
