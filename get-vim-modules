@@ -9,24 +9,22 @@ git clone git://github.com/tpope/vim-sensible.git &&
 git clone git://github.com/kien/ctrlp.vim.git &&
 git clone git://github.com/scrooloose/nerdtree.git &&
 git clone git://github.com/tomtom/tcomment_vim.git &&
-git clone git://github.com/tpope/vim-fugitive.git
-https://github.com/Valloric/YouCompleteMe
-https://github.com/tpope/vim-surround
-
-https://github.com/SirVer/ultisnips
-https://github.com/honza/vim-snippets
+git clone git://github.com/tpope/vim-fugitive.git &&
+git clone https://github.com/Valloric/YouCompleteMe &&
+git clone https://github.com/tpope/vim-surround &&
+git clone https://github.com/SirVer/ultisnips &&
+git clone https://github.com/honza/vim-snippets
 
 
 """" COLOR THEMES
-git clone git://github.com/flazz/vim-colorschemes.git
-
-https://github.com/morhetz/gruvbox
-https://github.com/sjl/badwolf
-https://github.com/nanotech/jellybeans.vim
-https://github.com/Lokaltog/vim-distinguished
-https://github.com/zeis/vim-kolor
-https://github.com/tomasr/molokai
-https://github.com/altercation/vim-colors-solarized
-https://github.com/djjcast/mirodark
-https://github.com/baskerville/bubblegum
-https://github.com/romainl/Apprentice
+git clone git://github.com/flazz/vim-colorschemes.git &&
+git clone https://github.com/morhetz/gruvbox &&
+git clone https://github.com/sjl/badwolf &&
+git clone https://github.com/nanotech/jellybeans.vim &&
+git clone https://github.com/Lokaltog/vim-distinguished &&
+git clone https://github.com/zeis/vim-kolor &&
+git clone https://github.com/tomasr/molokai &&
+git clone https://github.com/altercation/vim-colors-solarized &&
+git clone https://github.com/djjcast/mirodark &&
+git clone https://github.com/baskerville/bubblegum &&
+git clone https://github.com/romainl/Apprentice
