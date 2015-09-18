@@ -14,7 +14,6 @@ sudo tasksel install lamp-server
 
 sudo apt-get install phpmyadmin g++ gcc curl php5-curl php-pear python python-pip ruby ruby-dev make unzip git php5-dev imagemagick zsh screen libtool apache2-dev python-dev php-pear htop weechat vim wget build-essential cmake nodejs npm nodejs-legacy tmux
 
-
 sudo gem install tmuxinator bundler
 
 
@@ -39,7 +38,6 @@ cd /etc/php5/apache2/conf.d
 sudo touch uploadprogress.ini
 sudo vim uploadprogress.ini
 add the line "extension=uploadprogress.so" to uploadprogress.ini
-
 
 sudo vim /etc/php5/apache2/php.ini
 Add the line "extension=uploadprogress.so" to php.ini
