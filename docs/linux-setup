@@ -13,10 +13,7 @@ sudo add-apt-repository restricted
 sudo tasksel install lamp-server
 
 sudo apt-get install \
-    g++ \
-    gcc \
     build-essential \
-    make \
     cmake \
     curl \
     wget \
