@@ -38,7 +38,10 @@ sudo apt-get install \
     htop \
     weechat \
     vim \
-    tmux
+    tmux \
+    openssl \
+    libssl-dev \
+    pkg-config
 
 sudo gem install \
     tmuxinator \
