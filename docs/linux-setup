@@ -13,33 +13,31 @@ sudo add-apt-repository restricted
 sudo tasksel install lamp-server
 
 sudo apt-get install \
-    phpmyadmin \
     g++ \
     gcc \
+    build-essential \
+    make \
+    cmake \
     curl \
+    wget \
+    php5-dev \
     php5-curl \
     php-pear \
+    phpmyadmin \
     python \
+    python-dev \
     python-pip \
     ruby \
     ruby-dev \
-    make \
     unzip \
     git \
-    php5-dev \
     imagemagick \
     zsh \
-    screen \
     libtool \
     apache2-dev \
-    python-dev \
-    php-pear \
     htop \
     weechat \
     vim \
-    wget \
-    build-essential \
-    cmake \
     tmux
 
 sudo gem install tmuxinator bundler
