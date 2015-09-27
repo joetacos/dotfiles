@@ -38,7 +38,8 @@ sudo apt-get install \
     tmux \
     openssl \
     libssl-dev \
-    pkg-config
+    pkg-config \
+    gccgo-5
 
 sudo gem install \
     tmuxinator \
