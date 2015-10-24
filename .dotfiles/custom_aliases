@@ -68,3 +68,8 @@ alias www="cd /var/www"
 alias dl="cd ~/downloads"
 alias crap="cd ~/crap"
 
+
+#### GO
+export GOROOT=$HOME/go
+export PATH=$PATH:$GOROOT/bin
+
