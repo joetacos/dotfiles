@@ -26,8 +26,8 @@ alias sv="sudo vim"
 
 
 #### GITHUB
-export PATH="$HOME/custom-programs/hub:$PATH"
-alias git="hub"
+#export PATH="$HOME/custom-programs/hub:$PATH"
+#alias git="hub"
 
 
 #### APACHE
