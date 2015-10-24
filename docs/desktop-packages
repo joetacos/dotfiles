@@ -24,3 +24,4 @@ sudo apt-get install \
   gnome-games \
   python-pip \
   unetbootin \
+  cmake
