@@ -27,5 +27,6 @@ sudo apt-get install \
   python-pip \
   unetbootin \
   cmake \
-  python-dev
+  python-dev \
+  samba
 
