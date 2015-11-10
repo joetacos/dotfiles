@@ -28,5 +28,6 @@ sudo apt-get install \
   unetbootin \
   cmake \
   python-dev \
-  samba
+  samba \
+  thunderbird
 
