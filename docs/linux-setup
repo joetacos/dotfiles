@@ -93,14 +93,14 @@ https://github.com/Valloric/YouCompleteMe
 https://github.com/robbyrussell/oh-my-zsh
 plugins: git common-aliases tmux extract colored-man command-not-found
 
-if [ -f ~/.dotfiles/custom_zsh ]; then
-    . ~/.dotfiles/custom_zsh
+if [ -f ~/.dotfiles/custom_zshrc ]; then
+    . ~/.dotfiles/custom_zshrc
 fi
 
 
 """" BASH
-if [ -f ~/.dotfiles/custom_bash ]; then
-    . ~/.dotfiles/custom_bash
+if [ -f ~/.dotfiles/custom_bashrc ]; then
+    . ~/.dotfiles/custom_bashrc
 fi
 
 
