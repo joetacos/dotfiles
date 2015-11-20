@@ -91,7 +91,7 @@ https://github.com/Valloric/YouCompleteMe
 
 """" ZSH
 https://github.com/robbyrussell/oh-my-zsh
-plugins: git common-aliases tmux extract colored-man command-not-found
+plugins: git common-aliases tmux extract colored-man-pages command-not-found
 
 if [ -f ~/.dotfiles/custom_zshrc ]; then
     . ~/.dotfiles/custom_zshrc
