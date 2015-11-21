@@ -1,7 +1,7 @@
 
 
 
-""""" UPDATE
+"""" UPDATE
 sudo apt-get update &&
 sudo apt-get upgrade
 
@@ -14,12 +14,12 @@ sudo add-apt-repository restricted
 
 
 
-""""" INSTALL WEBSERVER
+"""" INSTALL WEBSERVER
 sudo tasksel install lamp-server
 
 
 
-""""" INSTALL PACKAGES
+"""" INSTALL PACKAGES
 sudo apt-get install \
     build-essential \
     cmake \
@@ -51,19 +51,19 @@ sudo apt-get install \
 
 
 
-"""" RUBY GEMS
+""" RUBY GEMS
 sudo gem install \
     tmuxinator \
     bundler
 
 
 
-""""" CLOUDFLARE
+"""" CLOUDFLARE
 https://www.cloudflare.com/resources-downloads
 
 
 
-""""" DRUPAL
+"""" DRUPAL
 Composer
 https://github.com/composer/composer
 
@@ -86,7 +86,7 @@ Add the line "extension=uploadprogress.so" to php.ini
 
 
 
-""""" APACHE
+"""" APACHE
 sudo a2enmod rewrite
 sudo service apache2 restart
 
@@ -96,7 +96,7 @@ AllowOverride All
 
 
 
-""""" VIM
+"""" VIM
 Pathagen
 https://github.com/tpope/vim-pathogen
 
@@ -105,7 +105,7 @@ https://github.com/Valloric/YouCompleteMe
 
 
 
-""""" ZSH
+"""" ZSH
 https://github.com/robbyrussell/oh-my-zsh
 plugins: git common-aliases tmux extract colored-man-pages command-not-found
 
@@ -115,19 +115,19 @@ fi
 
 
 
-""""" BASH
+"""" BASH
 if [ -f ~/.dotfiles/custom_bashrc ]; then
     . ~/.dotfiles/custom_bashrc
 fi
 
 
 
-""""" POWER LINE
+"""" POWER LINE
 http://powerline.readthedocs.org/en/master/installation.html
 
 
 
-""""" GITHUB
+"""" GITHUB
 https://github.com/github/hub
 
 
