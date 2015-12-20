@@ -41,8 +41,8 @@ alias reloadap="sudo service apache2 reload"
 
 
 #### VARIABLES
-if [ -f ~/.dotfiles/custom_aliases_var ]; then
-    . ~/.dotfiles/custom_aliases_var
+if [ -f ~/.dotfiles/aliases-var ]; then
+    . ~/.dotfiles/aliases-var
 fi
 
 
