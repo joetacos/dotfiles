@@ -12,8 +12,8 @@ fi
 
 
 #### CUSTOM ALIASES
-if [ -f ~/.dotfiles/custom_aliases ]; then
-      . ~/.dotfiles/custom_aliases
+if [ -f ~/.dotfiles/aliases ]; then
+      . ~/.dotfiles/aliases
 fi
 
 
