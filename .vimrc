@@ -1,8 +1,8 @@
 
 
+
 """" PATHOGEN
 execute pathogen#infect()
-
 
 
 """" DEFAULTS
@@ -18,10 +18,12 @@ set encoding=utf-8
 set laststatus=2
 
 
+"""" ENABLE MOUSE
+" set mouse=a
+
 
 """" NERD TREE
 map <F2> :NERDTreeToggle<CR>
-
 
 
 """" FIX PASTE
@@ -29,15 +31,12 @@ nnoremap <silent> <F3> :set paste!<CR>
 set pastetoggle=<F3>
 
 
-
 """" TCOMMENT
 map <F4> :TComment<CR>
 
 
-
 """" CTRL P
 let g:ctrlp_show_hidden = 1
-
 
 
 """" POWERLINE
@@ -46,11 +45,9 @@ python powerline_setup()
 python del powerline_setup
 
 
-
 """" DISABLE TAB IN YCM FOR UltiSnips
 let g:ycm_key_list_select_completion=[]
 let g:ycm_key_list_previous_completion=[]
-
 
 
 """" LIGHT OR DARK BACKGROUND
@@ -58,12 +55,10 @@ set background=dark
 " set background=light
 
 
-
 """" COLOR THEMES SETTINGS
 " let g:solarized_termcolors=256
 " let g:molokai_original = 1
 " let g:rehash256 = 1
-
 
 
 """" COLOR THEMES
@@ -78,4 +73,5 @@ colorscheme gruvbox
 " colorscheme bubblegum-256-light
 " colorscheme bubblegum-256-dark
 " colorscheme apprentice
+
 
