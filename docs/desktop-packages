@@ -32,7 +32,8 @@ sudo apt-get install \
   samba \
   thunderbird \
   shutter \
-  mc
+  mc \
+  totem-plugins-extra
 
 
 #### FONTS
