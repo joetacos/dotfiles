@@ -1,5 +1,6 @@
 
 
+
 sudo apt-get install \
   gdebi \
   htop \
@@ -29,8 +30,9 @@ sudo apt-get install \
   cmake \
   python-dev \
   samba \
-  thunderbird
-
+  thunderbird \
+  shutter \
+  mc
 
 
 #### FONTS
