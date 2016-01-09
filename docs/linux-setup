@@ -101,14 +101,14 @@ https://github.com/Valloric/YouCompleteMe
 https://github.com/robbyrussell/oh-my-zsh
 plugins: git extract tmux gulp zsh_reload node npm sudo ubuntu wp-cli systemadmin tmuxinator meteor common-aliases colorize extract colored-man-pages command-not-found
 
-if [ -f ~/.dotfiles/custom_zshrc ]; then
-    . ~/.dotfiles/custom_zshrc
+if [ -f ~/.dotfiles/zshrc ]; then
+    . ~/.dotfiles/zshrc
 fi
 
 
 """" BASH
-if [ -f ~/.dotfiles/custom_bashrc ]; then
-    . ~/.dotfiles/custom_bashrc
+if [ -f ~/.dotfiles/bashrc ]; then
+    . ~/.dotfiles/bashrc
 fi
 
 
