@@ -31,7 +31,7 @@ git clone https://github.com/tomasr/molokai &&
 git clone https://github.com/altercation/vim-colors-solarized &&
 git clone https://github.com/djjcast/mirodark &&
 git clone https://github.com/baskerville/bubblegum &&
-git clone https://github.com/romainl/Apprentice
-https://github.com/chriskempson/base16-vim
+git clone https://github.com/romainl/Apprentice &&
+git clone https://github.com/chriskempson/base16-vim
 
 
