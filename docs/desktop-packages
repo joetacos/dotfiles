@@ -33,7 +33,9 @@ sudo apt-get install \
   thunderbird \
   shutter \
   mc \
-  totem-plugins-extra
+  totem-plugins-extra \
+  recordmydesktop \
+  gk-recordmydesktop
 
 
 #### FONTS
