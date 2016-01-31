@@ -23,10 +23,6 @@ if [ -f ~/.bin/tmuxinator.zsh ]; then
 fi
 
 
-#### RELOAD ZSH CONFIG
-alias reloadzsh="source ~/.zshrc"
-
-
 # Auto Correct Commands
 # setopt CORRECT
 
