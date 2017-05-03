@@ -40,9 +40,7 @@ let g:ctrlp_show_hidden = 1
 
 
 """" POWERLINE
-python from powerline.vim import setup as powerline_setup
-python powerline_setup()
-python del powerline_setup
+set rtp+=/home/joseph/.local/lib/python2.7/site-packages/powerline/bindings/vim
 
 
 """" DISABLE TAB IN YCM FOR UltiSnips
